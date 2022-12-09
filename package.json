@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "ngg-c": "ng g c --change-detection=OnPush --export --view-encapsulation=None",
-    "ngg-pc": "ng g c --type=page --change-detection=OnPush --export --view-encapsulation=None --skip-selector"
+    "ngg-pc": "ng g c --type=page --change-detection=OnPush --export --view-encapsulation=None --skip-selector",
+    "deploy": "gh-pages -d dist/browser"
   },
   "private": true,
   "dependencies": {
