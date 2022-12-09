@@ -1,0 +1,9 @@
+<div class="home-page-container">
+    <div class="timer-container">{{ timerString$ | async }}</div>
+    <div class="button-container">
+        <button class="button primary-button" (click)="start()">Start</button>
+        <button class="button primary-button" (click)="stop()">Stop</button>
+        <div class="divider"></div>
+        <button class="button danger-button" (click)="reset()">Reset</button>
+    </div>
+</div>
